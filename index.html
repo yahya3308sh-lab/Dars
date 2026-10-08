@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>من مسئولم</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f2f2f2;
+    color: #222;
+    font-family: Tahoma, Arial, sans-serif;
+    line-height: 2.2;
+}
+
+.page {
+    width: 94%;
+    max-width: 800px;
+    margin: 25px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px #ccc;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 0;
+}
+
+.info {
+    text-align: center;
+    color: #666;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 17px;
+    margin: 18px 0;
+}
+
+.box {
+    background: #f7f7f7;
+    border-right: 4px solid #333;
+    padding: 12px 15px;
+    border-radius: 6px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 13px;
+    margin-top: 25px;
+    background: #222;
+    color: white;
+    border: 0;
+    border-radius: 7px;
+    font-size: 16px;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+button:active {
+    background: #444;
+}
+
+@media (max-width: 600px) {
+    .page {
+        margin: 10px auto;
+        padding: 18px;
+    }
+
+    h1 {
+        font-size: 27px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+@media print {
+    body {
+        background: white;
+    }
+
+    .page {
+        width: 100%;
+        max-width: none;
+        box-shadow: none;
+        margin: 0;
+    }
+
+    button {
+        display: none;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="page">
+
+    <h1>من مسئولم</h1>
+
+    <div class="info">
+        درس دوم فصل اول فارسی هفتم
+    </div>
+
+    <p>
+        هر انسانی در زندگی خود مسئولیت‌هایی دارد.
+        مسئولیت یعنی وظیفه‌ای که باید آن را به‌درستی انجام دهیم
+        و نتیجه کار خود را بپذیریم. از دیدگاه علمی نیز انسان
+        موجودی اجتماعی است و رفتار هر فرد می‌تواند بر دیگران
+        و محیط اطرافش تأثیر بگذارد.
+    </p>
+
+    <p>
+        برای مثال، اگر یک دانش‌آموز وظیفه‌اش را انجام دهد،
+        به‌موقع درس بخواند و وسایل مدرسه‌اش را مرتب نگه دارد،
+        نه‌تنها خودش پیشرفت می‌کند، بلکه باعث می‌شود نظم کلاس
+        نیز بهتر شود.
+    </p>
+
+    <div class="box">
+        حتی کارهای ساده‌ای مانند خاموش کردن چراغ اضافی،
+        صرفه‌جویی در آب و نریختن زباله در طبیعت،
+        نوعی مسئولیت‌پذیری در برابر محیط زیست است.
+    </div>
+
+    <p>
+        مغز انسان توانایی برنامه‌ریزی، تصمیم‌گیری و بررسی
+        نتیجه کارها را دارد. بنابراین ما می‌توانیم قبل از
+        انجام هر کاری فکر کنیم و ببینیم تصمیم ما چه پیامدی
+        خواهد داشت. این توانایی، یکی از ویژگی‌های مهم انسان است.
+    </p>
+
+    <p>
+        به نظر من، مسئولیت‌پذیری باعث می‌شود انسان قابل اعتمادتر
+        و موفق‌تر شود. اگر هرکس مسئولیت خودش را جدی بگیرد،
+        خانواده، مدرسه و جامعه نیز بهتر و منظم‌تر خواهند شد.
+    </p>
+
+    <p>
+        پس من مسئولم؛ مسئول رفتار خودم، درس خواندنم،
+        محیط اطرافم و آینده‌ای که می‌خواهم بسازم.
+        شاید مسئولیت‌های من کوچک باشند، اما همین کارهای کوچک
+        می‌توانند آینده‌ای بزرگ بسازند.
+    </p>
+
+    <button onclick="window.print()">
+        چاپ / ذخیره به صورت PDF
+    </button>
+
+</div>
+
+</body>
+</html>
